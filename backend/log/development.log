@@ -6438,3 +6438,69 @@ Processing by Trainer1Controller#index as HTML
 Completed 200 OK in 79ms (Views: 73.9ms | ActiveRecord: 1.2ms | Allocations: 7588)
 
 
+Started GET "/" for ::1 at 2021-09-01 15:19:44 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 103.5ms | Allocations: 22039)
+  Rendered layout layouts/application.html.erb (Duration: 123.6ms | Allocations: 26888)
+Completed 200 OK in 154ms (Views: 139.2ms | ActiveRecord: 0.0ms | Allocations: 29883)
+
+
+Started GET "/trainer2" for ::1 at 2021-09-01 15:19:48 -0400
+Processing by Trainer2Controller#natalia as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer2/natalia.erb within layouts/application
+  [1m[36mCoach Load (0.6ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches" WHERE "coaches"."id" IN (?, ?, ?, ?)[0m  [["id", 5], ["id", 6], ["id", 7], ["id", 8]]
+  ↳ app/views/trainer2/natalia.erb:6
+  Rendered trainer2/natalia.erb within layouts/application (Duration: 16.1ms | Allocations: 4937)
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 8995)
+Completed 200 OK in 31ms (Views: 24.8ms | ActiveRecord: 2.5ms | Allocations: 10197)
+
+
+Started GET "/trainer1" for ::1 at 2021-09-01 15:19:53 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches" LIMIT ?[0m  [["LIMIT", 4]]
+  ↳ app/views/trainer1/index.erb:6
+  Rendered trainer1/index.erb within layouts/application (Duration: 4.0ms | Allocations: 1514)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 5572)
+Completed 200 OK in 31ms (Views: 11.0ms | ActiveRecord: 0.2ms | Allocations: 6491)
+
+
+Started GET "/" for ::1 at 2021-09-01 15:45:39 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 8.5ms | Allocations: 884)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 5146)
+Completed 200 OK in 44ms (Views: 39.4ms | Allocations: 6264)
+
+
+Started GET "/trainer1" for ::1 at 2021-09-01 15:45:42 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/trainer1/index.erb:6
+  [1m[36mCoach Load (0.7ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches" LIMIT ?[0m  [["LIMIT", 4]]
+  ↳ app/views/trainer1/index.erb:6
+  Rendered trainer1/index.erb within layouts/application (Duration: 17.8ms | Allocations: 2208)
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 6266)
+Completed 200 OK in 41ms (Views: 37.7ms | ActiveRecord: 1.4ms | Allocations: 7175)
+
+
+Started GET "/trainer1" for ::1 at 2021-09-01 15:45:58 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches" LIMIT ?[0m  [["LIMIT", 4]]
+  ↳ app/views/trainer1/index.erb:6
+  Rendered trainer1/index.erb within layouts/application (Duration: 13.0ms | Allocations: 1301)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 5355)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.2ms | Allocations: 5748)
+
+
