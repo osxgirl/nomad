@@ -1,12 +1,11 @@
 <div class="jumbotron text-center">
   <div class="container">
     <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
-    <h1>Christy</h1>
+    <h1>Dr. Geovany Keebler</h1>
       <p>Nomad Trainer</p>
        <a type="button" class="btn btn-lg btn-primary" href="https://github.com/osxgirl"><span class="glyphicon glyphicon-calendar"></span> Schedule</a>
             <% @coaches.each do |coach| %>
-          <td><h2><%= coach.availableat %></h2></td>
-          <td><h2><%= coach.weekday %></h2></td>
+          <td><h2><%= coach.weekday %></h2><h2><%= coach.availableat %></h2></td>
         </tr>
       <% end %>
   </div>

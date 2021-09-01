@@ -1,6 +1,6 @@
 class Trainer1Controller < ApplicationController
  
- def index
+ def christy
    @coaches = Coach.all
  end
 

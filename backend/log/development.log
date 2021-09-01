@@ -3531,3 +3531,1281 @@ Processing by Trainer1Controller#index as HTML
 Completed 200 OK in 23ms (Views: 19.7ms | ActiveRecord: 1.7ms | Allocations: 11366)
 
 
+Started GET "/trainer1" for ::1 at 2021-09-01 09:09:29 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  [1m[36mCoach Load (0.6ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/trainer1/index.erb:7
+  Rendered trainer1/index.erb within layouts/application (Duration: 106.1ms | Allocations: 26307)
+  Rendered layout layouts/application.html.erb (Duration: 130.8ms | Allocations: 31161)
+Completed 200 OK in 158ms (Views: 141.4ms | ActiveRecord: 1.4ms | Allocations: 34580)
+
+
+Started GET "/trainer1" for ::1 at 2021-09-01 09:09:40 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/trainer1/index.erb:7
+  Rendered trainer1/index.erb within layouts/application (Duration: 4.0ms | Allocations: 1734)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 6013)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.2ms | Allocations: 7145)
+
+
+Started GET "/" for ::1 at 2021-09-01 09:10:02 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 2.0ms | Allocations: 762)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 4819)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 5716)
+
+
+Started GET "/" for ::1 at 2021-09-01 09:10:03 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.2ms | Allocations: 610)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 4665)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 5041)
+
+
+Started GET "/" for ::1 at 2021-09-01 09:35:35 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 85.5ms | Allocations: 22052)
+  Rendered layout layouts/application.html.erb (Duration: 107.6ms | Allocations: 26899)
+Completed 200 OK in 135ms (Views: 113.5ms | ActiveRecord: 0.0ms | Allocations: 29881)
+
+
+Started GET "/" for ::1 at 2021-09-01 09:35:42 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 6.3ms | Allocations: 615)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 4670)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 5048)
+
+
+Started GET "/trainer1" for ::1 at 2021-09-01 09:35:46 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  [1m[36mCoach Load (0.7ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/trainer1/index.erb:7
+  Rendered trainer1/index.erb within layouts/application (Duration: 14.9ms | Allocations: 5608)
+  Rendered layout layouts/application.html.erb (Duration: 41.2ms | Allocations: 9667)
+Completed 200 OK in 47ms (Views: 42.4ms | ActiveRecord: 1.2ms | Allocations: 10864)
+
+
+Started GET "/" for ::1 at 2021-09-01 09:38:22 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.4ms | Allocations: 782)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 5062)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6176)
+
+
+Started GET "/trainer1" for ::1 at 2021-09-01 09:38:24 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  [1m[36mCoach Load (1.4ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/trainer1/index.erb:7
+  Rendered trainer1/index.erb within layouts/application (Duration: 8.5ms | Allocations: 1734)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 5792)
+Completed 200 OK in 21ms (Views: 18.3ms | ActiveRecord: 1.4ms | Allocations: 6706)
+
+
+Started GET "/trainer1" for ::1 at 2021-09-01 09:38:49 -0400
+  
+ArgumentError (Invalid route name, already in use: 'index' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+https://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:6:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/trainer1" for ::1 at 2021-09-01 09:39:40 -0400
+  
+ArgumentError (Invalid route name, already in use: 'index' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+https://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:6:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2021-09-01 09:39:59 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 2.1ms | Allocations: 1597)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1669)
+Completed 500 Internal Server Error in 5ms (Allocations: 2248)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `index_path' for #<ActionView::Base:0x007fcf612e41d0>):
+    3:     <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+    4:     <h1>Guides</h1>
+    5:       <p>30 minute Coaching Sessions</p>
+    6:         <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Christy', index_path %></span></a>
+    7:         <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', index_path %></span></a>
+    8:         
+    9:         <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Nola Murazik V</a>
+  
+app/views/welcome/index.erb:6
+Started GET "/" for ::1 at 2021-09-01 09:40:34 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.6ms | Allocations: 1711)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1781)
+Completed 500 Internal Server Error in 4ms (Allocations: 2874)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `natalia' for #<ActionView::Base:0x007fcf6149e340>):
+    4:     <h1>Guides</h1>
+    5:       <p>30 minute Coaching Sessions</p>
+    6:         <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Christy', christy_path %></span></a>
+    7:         <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', natalia %></span></a>
+    8:         
+    9:         <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Nola Murazik V</a>
+   10:         <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Elyssa O'Kon</a>
+  
+app/views/welcome/index.erb:7
+Started GET "/" for ::1 at 2021-09-01 09:40:47 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.4ms | Allocations: 781)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 5098)
+Completed 200 OK in 11ms (Views: 10.1ms | Allocations: 6222)
+
+
+Started GET "/trainer2" for ::1 at 2021-09-01 09:40:50 -0400
+  
+AbstractController::ActionNotFound (The action 'natalia' could not be found for Trainer2Controller):
+  
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.4.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.3) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.2) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.4.0) lib/puma/configuration.rb:249:in `call'
+puma (5.4.0) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.4.0) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.4.0) lib/puma/request.rb:76:in `handle_request'
+puma (5.4.0) lib/puma/server.rb:440:in `process_client'
+puma (5.4.0) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/trainer2" for ::1 at 2021-09-01 09:41:33 -0400
+Processing by Trainer2Controller#natalia as HTML
+Completed 406 Not Acceptable in 5ms (Allocations: 2162)
+
+
+  
+ActionController::MissingExactTemplate (Trainer2Controller#natalia is missing a template for request formats: text/html):
+  
+actionpack (6.1.4.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.4.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+actiontext (6.1.4.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (6.1.4.1) lib/action_text/engine.rb:59:in `block (4 levels) in <class:Engine>'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:126:in `instance_exec'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.4.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.4.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.4.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.4.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.4.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.4.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.4.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.3) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.2) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.4.0) lib/puma/configuration.rb:249:in `call'
+puma (5.4.0) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.4.0) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.4.0) lib/puma/request.rb:76:in `handle_request'
+puma (5.4.0) lib/puma/server.rb:440:in `process_client'
+puma (5.4.0) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-09-01 09:41:53 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.5ms | Allocations: 781)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 5057)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 6176)
+
+
+Started GET "/" for ::1 at 2021-09-01 09:41:54 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.1ms | Allocations: 634)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 4687)
+Completed 200 OK in 6ms (Views: 5.5ms | Allocations: 5060)
+
+
+Started GET "/trainer2" for ::1 at 2021-09-01 09:41:55 -0400
+Processing by Trainer2Controller#natalia as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer2/natalia.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/trainer2/natalia.erb:7
+  [1m[36mCoach Load (0.6ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/trainer2/natalia.erb:7
+  Rendered trainer2/natalia.erb within layouts/application (Duration: 14.0ms | Allocations: 5890)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 9950)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 2.0ms | Allocations: 10868)
+
+
+Started GET "/" for ::1 at 2021-09-01 09:44:15 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.3ms | Allocations: 782)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 5062)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 6183)
+
+
+Started GET "/" for ::1 at 2021-09-01 09:49:32 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 0.9ms | Allocations: 1219)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1290)
+Completed 500 Internal Server Error in 4ms (Allocations: 2379)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+    <h1>Guides</h1>
+      <p>30 minute Coaching Sessions</p>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Christy', christy_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Natalia Stanton Jr.', natalia_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Nola Murazik V', nola_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Elyssa O'Kon', elyssa_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Dr. Geovany Keebler', geovany_path %></span></a>
+   </div>
+</div>
+   
+
+):
+1:    <div class="jumbotron text-center">
+2:      <div class="container">
+3:        <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+4:        <h1>Guides</h1>
+5:          <p>30 minute Coaching Sessions</p>
+6:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Christy', christy_path %></span></a>
+7:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Natalia Stanton Jr.', natalia_path %></span></a>
+8:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Nola Murazik V', nola_path %></span></a>
+9:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Elyssa O'Kon', elyssa_path %></span></a>
+10:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Dr. Geovany Keebler', geovany_path %></span></a>
+11:       </div>
+12:    </div>
+13:       
+  
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for ::1 at 2021-09-01 09:50:04 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 0.7ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 1269)
+Completed 500 Internal Server Error in 2ms (Allocations: 1621)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+    <h1>Guides</h1>
+      <p>30 minute Coaching Sessions</p>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Christy', christy_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Natalia Stanton Jr.', natalia_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Nola Murazik V', nola_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Elyssa O'Kon', elyssa_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Dr. Geovany Keebler', geovany_path %></span></a>
+   </div>
+</div>
+   
+
+):
+1:    <div class="jumbotron text-center">
+2:      <div class="container">
+3:        <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+4:        <h1>Guides</h1>
+5:          <p>30 minute Coaching Sessions</p>
+6:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Christy', christy_path %></span></a>
+7:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Natalia Stanton Jr.', natalia_path %></span></a>
+8:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Nola Murazik V', nola_path %></span></a>
+9:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Elyssa O'Kon', elyssa_path %></span></a>
+10:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Dr. Geovany Keebler', geovany_path %></span></a>
+11:       </div>
+12:    </div>
+13:       
+  
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for ::1 at 2021-09-01 09:52:10 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 3.3ms | Allocations: 1649)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 1729)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms | Allocations: 4634)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+    <h1>Guides</h1>
+      <p>30 minute Coaching Sessions</p>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Christy', christy_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Natalia Stanton Jr.', natalia_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Nola Murazik V', nola_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Elyssa O'Kon', elyssa_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Dr. Geovany Keebler', geovany_path %></span></a>
+   </div>
+</div>
+   
+
+):
+1:    <div class="jumbotron text-center">
+2:      <div class="container">
+3:        <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+4:        <h1>Guides</h1>
+5:          <p>30 minute Coaching Sessions</p>
+6:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Christy', christy_path %></span></a>
+7:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Natalia Stanton Jr.', natalia_path %></span></a>
+8:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Nola Murazik V', nola_path %></span></a>
+9:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Elyssa O'Kon', elyssa_path %></span></a>
+10:            <a type="button" class="btn btn-lg btn-primary"<%= link_to 'Dr. Geovany Keebler', geovany_path %></span></a>
+11:       </div>
+12:    </div>
+13:       
+  
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for ::1 at 2021-09-01 09:52:27 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 0.7ms | Allocations: 1210)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1282)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2474)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+    <h1>Guides</h1>
+      <p>30 minute Coaching Sessions</p>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Christy', christy_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', natalia_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nola Murazik V', nola_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Elyssa O'Kon', elyssa_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Dr. Geovany Keebler', geovany_path %></span></a>
+   </div>
+</div>
+   
+
+):
+1:    <div class="jumbotron text-center">
+2:      <div class="container">
+3:        <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+4:        <h1>Guides</h1>
+5:          <p>30 minute Coaching Sessions</p>
+6:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Christy', christy_path %></span></a>
+7:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', natalia_path %></span></a>
+8:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nola Murazik V', nola_path %></span></a>
+9:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Elyssa O'Kon', elyssa_path %></span></a>
+10:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Dr. Geovany Keebler', geovany_path %></span></a>
+11:       </div>
+12:    </div>
+13:       
+  
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for ::1 at 2021-09-01 09:52:31 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.7ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1270)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1625)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+    <h1>Guides</h1>
+      <p>30 minute Coaching Sessions</p>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Christy', christy_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', natalia_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nola Murazik V', nola_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Elyssa O'Kon', elyssa_path %></span></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Dr. Geovany Keebler', geovany_path %></span></a>
+   </div>
+</div>
+   
+
+):
+1:    <div class="jumbotron text-center">
+2:      <div class="container">
+3:        <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+4:        <h1>Guides</h1>
+5:          <p>30 minute Coaching Sessions</p>
+6:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Christy', christy_path %></span></a>
+7:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', natalia_path %></span></a>
+8:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nola Murazik V', nola_path %></span></a>
+9:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Elyssa O'Kon', elyssa_path %></span></a>
+10:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Dr. Geovany Keebler', geovany_path %></span></a>
+11:       </div>
+12:    </div>
+13:       
+  
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:9: unknown regexp option - a
+app/views/welcome/index.erb:10: syntax error, unexpected '<'
+app/views/welcome/index.erb:10: syntax error, unexpected class, expecting ')'
+app/views/welcome/index.erb:10: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for ::1 at 2021-09-01 09:53:22 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 0.6ms | Allocations: 1197)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1268)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2362)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+    <h1>Guides</h1>
+      <p>30 minute Coaching Sessions</p>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Christy', christy_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', natalia_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nola Murazik V', nola_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Elyssa O'Kon', elyssa_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Dr. Geovany Keebler', geovany_path %></a>
+   </div>
+</div>
+   
+
+):
+1:    <div class="jumbotron text-center">
+2:      <div class="container">
+3:        <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+4:        <h1>Guides</h1>
+5:          <p>30 minute Coaching Sessions</p>
+6:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Christy', christy_path %></a>
+7:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', natalia_path %></a>
+8:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nola Murazik V', nola_path %></a>
+9:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Elyssa O'Kon', elyssa_path %></a>
+10:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Dr. Geovany Keebler', geovany_path %></a>
+11:       </div>
+12:    </div>
+13:       
+  
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:11: syntax error, unexpected '<'
+app/views/welcome/index.erb:12: unknown regexp options - dv
+app/views/welcome/index.erb:16: unterminated string meets end of file
+app/views/welcome/index.erb:16: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for ::1 at 2021-09-01 09:53:36 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 90.8ms | Allocations: 23367)
+  Rendered layout layouts/application.html.erb (Duration: 98.0ms | Allocations: 28203)
+Completed 200 OK in 101ms (Views: 99.8ms | ActiveRecord: 0.0ms | Allocations: 29327)
+
+
+Started GET "/" for ::1 at 2021-09-01 09:53:50 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 7.6ms | Allocations: 776)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 5059)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 6177)
+
+
+Started GET "/" for ::1 at 2021-09-01 09:54:01 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.6ms | Allocations: 1723)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1793)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2886)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `nola_path' for #<ActionView::Base:0x007fbf5c94a368>):
+     5:       <p>30 minute Coaching Sessions</p>
+     6:         <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Christy', christy_path %></a>
+     7:         <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', natalia_path %></a>
+     8:         <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nola Murazik V', nola_path %></a>
+     9:     
+    10:    </div>
+    11: </div>
+  
+app/views/welcome/index.erb:8
+Started GET "/" for ::1 at 2021-09-01 09:54:25 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 0.8ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 1270)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2364)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+    <h1>Guides</h1>
+      <p>30 minute Coaching Sessions</p>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Christy', christy_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', natalia_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nola Murazik V', nola_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Elyssa O'Kon', elyssa_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Dr. Geovany Keebler', geovany_path %></a>
+ 
+    
+   </div>
+</div>
+   
+
+):
+1:    <div class="jumbotron text-center">
+2:      <div class="container">
+3:        <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+4:        <h1>Guides</h1>
+5:          <p>30 minute Coaching Sessions</p>
+6:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Christy', christy_path %></a>
+7:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', natalia_path %></a>
+8:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nola Murazik V', nola_path %></a>
+9:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Elyssa O'Kon', elyssa_path %></a>
+10:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Dr. Geovany Keebler', geovany_path %></a>
+11:     
+12:        
+13:       </div>
+14:    </div>
+15:       
+  
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:13: syntax error, unexpected '<'
+app/views/welcome/index.erb:14: unknown regexp options - dv
+app/views/welcome/index.erb:18: unterminated string meets end of file
+app/views/welcome/index.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:13: syntax error, unexpected '<'
+app/views/welcome/index.erb:14: unknown regexp options - dv
+app/views/welcome/index.erb:18: unterminated string meets end of file
+app/views/welcome/index.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:13: syntax error, unexpected '<'
+app/views/welcome/index.erb:14: unknown regexp options - dv
+app/views/welcome/index.erb:18: unterminated string meets end of file
+app/views/welcome/index.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:13: syntax error, unexpected '<'
+app/views/welcome/index.erb:14: unknown regexp options - dv
+app/views/welcome/index.erb:18: unterminated string meets end of file
+app/views/welcome/index.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:13: syntax error, unexpected '<'
+app/views/welcome/index.erb:14: unknown regexp options - dv
+app/views/welcome/index.erb:18: unterminated string meets end of file
+app/views/welcome/index.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:13: syntax error, unexpected '<'
+app/views/welcome/index.erb:14: unknown regexp options - dv
+app/views/welcome/index.erb:18: unterminated string meets end of file
+app/views/welcome/index.erb:18: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for ::1 at 2021-09-01 09:56:30 -0400
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 4.6ms | Allocations: 1657)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 1764)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms | Allocations: 4824)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+    <h1>Guides</h1>
+      <p>30 minute Coaching Sessions</p>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Christy', christy_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', natalia_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nola Murazik V', nola_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Elyssa O'Kon', elyssa_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Dr. Geovany Keebler', geovany_path %></a>
+ 
+    
+   </div>
+</div>
+   
+
+):
+1:    <div class="jumbotron text-center">
+2:      <div class="container">
+3:        <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+4:        <h1>Guides</h1>
+5:          <p>30 minute Coaching Sessions</p>
+6:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Christy', christy_path %></a>
+7:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', natalia_path %></a>
+8:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nola Murazik V', nola_path %></a>
+9:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Elyssa O'Kon', elyssa_path %></a>
+10:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Dr. Geovany Keebler', geovany_path %></a>
+11:     
+12:        
+13:       </div>
+14:    </div>
+15:       
+  
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:13: syntax error, unexpected '<'
+app/views/welcome/index.erb:14: unknown regexp options - dv
+app/views/welcome/index.erb:18: unterminated string meets end of file
+app/views/welcome/index.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:13: syntax error, unexpected '<'
+app/views/welcome/index.erb:14: unknown regexp options - dv
+app/views/welcome/index.erb:18: unterminated string meets end of file
+app/views/welcome/index.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:13: syntax error, unexpected '<'
+app/views/welcome/index.erb:14: unknown regexp options - dv
+app/views/welcome/index.erb:18: unterminated string meets end of file
+app/views/welcome/index.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:13: syntax error, unexpected '<'
+app/views/welcome/index.erb:14: unknown regexp options - dv
+app/views/welcome/index.erb:18: unterminated string meets end of file
+app/views/welcome/index.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:13: syntax error, unexpected '<'
+app/views/welcome/index.erb:14: unknown regexp options - dv
+app/views/welcome/index.erb:18: unterminated string meets end of file
+app/views/welcome/index.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:13: syntax error, unexpected '<'
+app/views/welcome/index.erb:14: unknown regexp options - dv
+app/views/welcome/index.erb:18: unterminated string meets end of file
+app/views/welcome/index.erb:18: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for ::1 at 2021-09-01 09:57:08 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 70.6ms | Allocations: 23408)
+  Rendered layout layouts/application.html.erb (Duration: 93.0ms | Allocations: 28241)
+Completed 200 OK in 96ms (Views: 94.9ms | ActiveRecord: 0.0ms | Allocations: 29458)
+
+
+Started GET "/" for ::1 at 2021-09-01 09:58:16 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.4ms | Allocations: 816)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 5098)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 6215)
+
+
+Started GET "/" for ::1 at 2021-09-01 09:59:28 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.6ms | Allocations: 1200)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1272)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2370)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+    <h1>Guides</h1>
+      <p>30 minute Coaching Sessions</p>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Christy', christy_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', natalia_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nola Murazik V', nola_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Elyssa O'Kon', elyssa_path %></a>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Dr. Geovany Keebler', geovany_path %></a>
+       
+       
+    
+   </div>
+</div>
+   
+
+):
+1:    <div class="jumbotron text-center">
+2:      <div class="container">
+3:        <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+4:        <h1>Guides</h1>
+5:          <p>30 minute Coaching Sessions</p>
+6:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Christy', christy_path %></a>
+7:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Natalia Stanton Jr.', natalia_path %></a>
+8:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nola Murazik V', nola_path %></a>
+9:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Elyssa O'Kon', elyssa_path %></a>
+10:            <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Dr. Geovany Keebler', geovany_path %></a>
+11:           
+12:           
+13:        
+14:       </div>
+15:    </div>
+16:       
+  
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:14: syntax error, unexpected '<'
+app/views/welcome/index.erb:15: unknown regexp options - dv
+app/views/welcome/index.erb:19: unterminated string meets end of file
+app/views/welcome/index.erb:19: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:14: syntax error, unexpected '<'
+app/views/welcome/index.erb:15: unknown regexp options - dv
+app/views/welcome/index.erb:19: unterminated string meets end of file
+app/views/welcome/index.erb:19: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:14: syntax error, unexpected '<'
+app/views/welcome/index.erb:15: unknown regexp options - dv
+app/views/welcome/index.erb:19: unterminated string meets end of file
+app/views/welcome/index.erb:19: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:14: syntax error, unexpected '<'
+app/views/welcome/index.erb:15: unknown regexp options - dv
+app/views/welcome/index.erb:19: unterminated string meets end of file
+app/views/welcome/index.erb:19: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:14: syntax error, unexpected '<'
+app/views/welcome/index.erb:15: unknown regexp options - dv
+app/views/welcome/index.erb:19: unterminated string meets end of file
+app/views/welcome/index.erb:19: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.erb:9: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/welcome/index.erb:10: unknown regexp option - a
+app/views/welcome/index.erb:14: syntax error, unexpected '<'
+app/views/welcome/index.erb:15: unknown regexp options - dv
+app/views/welcome/index.erb:19: unterminated string meets end of file
+app/views/welcome/index.erb:19: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for ::1 at 2021-09-01 09:59:42 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.1ms | Allocations: 820)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 5104)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 6218)
+
+
+Started GET "/" for ::1 at 2021-09-01 10:01:22 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.6ms | Allocations: 884)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 5160)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 6269)
+
+
+Started GET "/" for ::1 at 2021-09-01 10:01:30 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.3ms | Allocations: 882)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 5158)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 6267)
+
+
+Started GET "/" for ::1 at 2021-09-01 10:01:45 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 2.3ms | Allocations: 884)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 5165)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6280)
+
+
+Started GET "/" for ::1 at 2021-09-01 10:02:36 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.3ms | Allocations: 882)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 5158)
+Completed 200 OK in 8ms (Views: 6.9ms | Allocations: 6267)
+
+
+Started GET "/" for ::1 at 2021-09-01 10:04:11 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 2.4ms | Allocations: 882)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 5158)
+Completed 200 OK in 10ms (Views: 8.8ms | Allocations: 6267)
+
+
+Started GET "/" for ::1 at 2021-09-01 10:04:23 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.5ms | Allocations: 885)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 5161)
+Completed 200 OK in 9ms (Views: 7.7ms | Allocations: 6270)
+
+
