@@ -3275,3 +3275,259 @@ Processing by Trainer1Controller#index as HTML
 Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 5645)
 
 
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCoach Load (0.5ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/trainer1" for ::1 at 2021-09-01 08:37:57 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  Rendered trainer1/index.erb within layouts/application (Duration: 81.8ms | Allocations: 22877)
+  Rendered layout layouts/application.html.erb (Duration: 82.7ms | Allocations: 22954)
+Completed 500 Internal Server Error in 108ms (ActiveRecord: 0.0ms | Allocations: 25940)
+
+
+  
+ActionView::Template::Error (undefined method `weekday' for nil:NilClass):
+     5:       <p>Nomad Trainer</p>
+     6:        <h3>Item:</h3>
+     7:         <ul>
+     8:           <% @coach.weekday.each do |weekday| %>
+     9:             <li> <%= weekday.weekday_1 %>
+    10:           <% end %>
+    11:         </ul>
+  
+app/views/trainer1/index.erb:8
+Started GET "/trainer1" for ::1 at 2021-09-01 08:40:03 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  Rendered trainer1/index.erb within layouts/application (Duration: 1.7ms | Allocations: 1762)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1833)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3025)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    4:     <h1>Christy</h1>
+    5:       <p>Nomad Trainer</p>
+    6:         <ul>
+    7:           <% @coach.name.each do |name| %>
+    8:             <li> <%= name.name_1 %>
+    9:           <% end %>
+   10:         </ul>
+  
+app/views/trainer1/index.erb:7
+Started GET "/trainer1" for ::1 at 2021-09-01 08:40:13 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  Rendered trainer1/index.erb within layouts/application (Duration: 1.9ms | Allocations: 1677)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1748)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2846)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    4:     <h1>Christy</h1>
+    5:       <p>Nomad Trainer</p>
+    6:         <ul>
+    7:           <% @coaches.name.each do |name| %>
+    8:             <li> <%= name.name_1 %>
+    9:           <% end %>
+   10:         </ul>
+  
+app/views/trainer1/index.erb:7
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCoach Load (0.6ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/trainer1" for ::1 at 2021-09-01 08:42:30 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  Rendered trainer1/index.erb within layouts/application (Duration: 77.4ms | Allocations: 22812)
+  Rendered layout layouts/application.html.erb (Duration: 77.9ms | Allocations: 22922)
+Completed 500 Internal Server Error in 104ms (ActiveRecord: 0.0ms | Allocations: 25863)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    4:     <h1>Christy</h1>
+    5:       <p>Nomad Trainer</p>
+    6:         <ul>
+    7:           <% @fcoach.each do |coach| %>
+    8:           <% end %>
+    9:         </ul>
+   10:     <a type="button" class="btn btn-lg btn-primary" href="https://github.com/osxgirl"><span class="glyphicon glyphicon-calendar"></span> Schedule</a>
+  
+app/views/trainer1/index.erb:7
+Started GET "/trainer1" for ::1 at 2021-09-01 08:42:36 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  Rendered trainer1/index.erb within layouts/application (Duration: 1.5ms | Allocations: 1742)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1813)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3005)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    4:     <h1>Christy</h1>
+    5:       <p>Nomad Trainer</p>
+    6:         <ul>
+    7:           <% @coach.each do |coach| %>
+    8:           <% end %>
+    9:         </ul>
+   10:     <a type="button" class="btn btn-lg btn-primary" href="https://github.com/osxgirl"><span class="glyphicon glyphicon-calendar"></span> Schedule</a>
+  
+app/views/trainer1/index.erb:7
+Started GET "/trainer1" for ::1 at 2021-09-01 08:43:20 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  Rendered trainer1/index.erb within layouts/application (Duration: 1.7ms | Allocations: 1657)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1728)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2826)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    4:     <h1>Christy</h1>
+    5:       <p>Nomad Trainer</p>
+    6:         <ul>
+    7:           <% @coaches.each do |coach| %>
+    8:           <% end %>
+    9:         </ul>
+   10:     <a type="button" class="btn btn-lg btn-primary" href="https://github.com/osxgirl"><span class="glyphicon glyphicon-calendar"></span> Schedule</a>
+  
+app/views/trainer1/index.erb:7
+Started GET "/trainer1" for ::1 at 2021-09-01 08:44:56 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  Rendered trainer1/index.erb within layouts/application (Duration: 1.6ms | Allocations: 1680)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1750)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2844)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    3:     <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+    4:     <h1>Christy</h1>
+    5:       <p>Nomad Trainer</p>
+    6:         <% @coaches.each do |coach| %>
+    7:           <td><h2><%= coach.name%></h2></td>
+    8:         </tr>
+    9:       <% end %>
+  
+app/views/trainer1/index.erb:6
+Started GET "/trainer1" for ::1 at 2021-09-01 08:45:04 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  Rendered trainer1/index.erb within layouts/application (Duration: 1.7ms | Allocations: 1676)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1746)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2840)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    3:     <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
+    4:     <h1>Christy</h1>
+    5:       <p>Nomad Trainer</p>
+    6:         <% @coach.each do |coach| %>
+    7:           <td><h2><%= coach.name%></h2></td>
+    8:         </tr>
+    9:       <% end %>
+  
+app/views/trainer1/index.erb:6
+Started GET "/trainer1" for ::1 at 2021-09-01 08:46:32 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  Rendered trainer1/index.erb within layouts/application (Duration: 1.1ms | Allocations: 687)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 5526)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 6650)
+
+
+Started GET "/trainer1" for ::1 at 2021-09-01 08:46:38 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  Rendered trainer1/index.erb within layouts/application (Duration: 1.8ms | Allocations: 1675)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1746)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2838)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    4:     <h1>Christy</h1>
+    5:       <p>Nomad Trainer</p>
+    6:     <a type="button" class="btn btn-lg btn-primary" href="https://github.com/osxgirl"><span class="glyphicon glyphicon-calendar"></span> Schedule</a>
+    7:             <% @coaches.each do |coach| %>
+    8:           <td><h2><%= coach.name %></h2></td>
+    9:         </tr>
+   10:       <% end %>
+  
+app/views/trainer1/index.erb:7
+Started GET "/trainer1" for ::1 at 2021-09-01 08:47:56 -0400
+Processing by Trainer1Controller#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 525)
+
+
+  
+NameError (uninitialized constant Trainer1Controller::Coaches):
+  
+app/controllers/trainer1_controller.rb:4:in `index'
+Started GET "/trainer1" for ::1 at 2021-09-01 08:50:18 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/trainer1/index.erb:7
+  [1m[36mCoach Load (0.6ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/trainer1/index.erb:7
+  Rendered trainer1/index.erb within layouts/application (Duration: 27.7ms | Allocations: 6468)
+  Rendered layout layouts/application.html.erb (Duration: 33.1ms | Allocations: 10760)
+Completed 200 OK in 38ms (Views: 34.8ms | ActiveRecord: 1.5ms | Allocations: 12223)
+
+
+Started GET "/trainer1" for ::1 at 2021-09-01 08:52:07 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/trainer1/index.erb:7
+  Rendered trainer1/index.erb within layouts/application (Duration: 3.7ms | Allocations: 1679)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 5956)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms | Allocations: 7089)
+
+
+Started GET "/trainer1" for ::1 at 2021-09-01 09:04:06 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/trainer1/index.erb:7
+  [1m[36mCoach Load (0.6ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/trainer1/index.erb:7
+  Rendered trainer1/index.erb within layouts/application (Duration: 6.2ms | Allocations: 2390)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 6667)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 1.0ms | Allocations: 7789)
+
+
+Started GET "/trainer1" for ::1 at 2021-09-01 09:07:43 -0400
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/trainer1/index.erb:7
+  [1m[36mCoach Load (0.6ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/trainer1/index.erb:7
+  Rendered trainer1/index.erb within layouts/application (Duration: 11.5ms | Allocations: 5688)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 9966)
+Completed 200 OK in 23ms (Views: 19.7ms | ActiveRecord: 1.7ms | Allocations: 11366)
+
+
