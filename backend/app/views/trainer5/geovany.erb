@@ -5,7 +5,7 @@
       <p>Nomad Trainer</p>
        <a type="button" class="btn btn-lg btn-primary" href=""><span class="glyphicon glyphicon-calendar"></span> Schedule</a>
          <% @coaches.find(20,21).each do |coach| %>
-          <td><h2><%= coach.weekday %></h2><h2><%= coach.availableat %> — <%= coach.availableuntil %></h2></td>
+          <td><h2><%= coach.weekday %></h2><h2><%= coach.available %> </h2></td>
         </tr>
       <% end %>
   </div>

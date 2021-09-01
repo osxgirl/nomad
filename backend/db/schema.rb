@@ -16,8 +16,7 @@ ActiveRecord::Schema.define(version: 2021_08_31_213859) do
     t.string "name"
     t.string "timezone"
     t.string "weekday"
-    t.string "availableat"
-    t.string "availableuntil"
+    t.string "available"
   end
 
 end

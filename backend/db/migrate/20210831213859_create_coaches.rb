@@ -4,8 +4,7 @@ class CreateCoaches < ActiveRecord::Migration[6.1]
           t.string :name
           t.string :timezone
           t.string :weekday
-          t.string :availableat
-          t.string :availableuntil
+          t.string :available
      end
   end
 end
