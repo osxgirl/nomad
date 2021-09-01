@@ -3,9 +3,9 @@
     <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
     <h1>Christy Schumm</h1>
       <p>Nomad Trainer</p>
-       <a type="button" class="btn btn-lg btn-primary" href=""><span class="glyphicon glyphicon-calendar"></span> Schedule</a>
-            <% @coaches.limit(4).each do |coach| %>
+        <% @coaches.limit(4).each do |coach| %>
           <td><h2><%= coach.weekday %></h2><h2><%= coach.available %></h2></td>
+         <a type="button" class="btn btn-lg btn-primary" href="https://calendar.google.com/calendar/embed?src=u8u2k9bscjof92ghiu21kfr6g8%40group.calendar.google.com&ctz=America%2FNew_York"><span class="glyphicon glyphicon-calendar"></span> Schedule</a>
         </tr>
       <% end %>
   </div>

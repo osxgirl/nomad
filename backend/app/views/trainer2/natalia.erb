@@ -3,9 +3,9 @@
     <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
     <h1>Natalia Stanton Jr.</h1>
       <p>Nomad Trainer</p>
-       <a type="button" class="btn btn-lg btn-primary" href=""><span class="glyphicon glyphicon-calendar"></span> Schedule</a>
          <% @coaches.find(5,6,7,8).each do |coach| %>
           <td><h2><%= coach.weekday %></h2><h2><%= coach.available %></h2></td>
+         <a type="button" class="btn btn-lg btn-primary" href=""><span class="glyphicon glyphicon-calendar"></span> Schedule</a>
         </tr>
       <% end %>
   </div>
