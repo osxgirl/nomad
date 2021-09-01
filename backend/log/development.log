@@ -1606,3 +1606,837 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 6100)
 
 
+Started GET "/" for ::1 at 2021-09-01 00:31:23 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 206.9ms | Allocations: 22264)
+  Rendered layout layouts/application.html.erb (Duration: 207.2ms | Allocations: 22339)
+Completed 500 Internal Server Error in 236ms (ActiveRecord: 0.0ms | Allocations: 25178)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `nomad_index' for #<ActionView::Base:0x007fec541c8458>):
+     5:     </a>
+     6:     <h1>Guides</h1>
+     7:       <p>30 minute Coaching Sessions</p>
+     8:         <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nomad', nomad_index %><span class="glyphicon glyphicon-user"></span> Christy Schumm</a>
+     9:         <a type="button" class="btn btn-lg btn-primary" a href = "http://linkedin.com/in/heathermarie/"><span class="glyphicon glyphicon-user"></span> Natalia Stanton Jr.</a>
+    10:         <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Nola Murazik V</a>
+    11:         <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Elyssa O'Kon</a>
+  
+app/views/welcome/index.erb:8
+Started GET "/" for ::1 at 2021-09-01 00:31:57 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.9ms | Allocations: 1730)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1801)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2992)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `nomads_index' for #<ActionView::Base:0x007fec542492b0>):
+     5:     </a>
+     6:     <h1>Guides</h1>
+     7:       <p>30 minute Coaching Sessions</p>
+     8:         <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nomads', nomads_index %><span class="glyphicon glyphicon-user"></span> Christy Schumm</a>
+     9:         <a type="button" class="btn btn-lg btn-primary" a href = "http://linkedin.com/in/heathermarie/"><span class="glyphicon glyphicon-user"></span> Natalia Stanton Jr.</a>
+    10:         <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Nola Murazik V</a>
+    11:         <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Elyssa O'Kon</a>
+  
+app/views/welcome/index.erb:8
+Started GET "/" for ::1 at 2021-09-01 00:32:17 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.6ms | Allocations: 1643)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1714)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2811)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `index' for #<ActionView::Base:0x007fec59988080>):
+     5:     </a>
+     6:     <h1>Guides</h1>
+     7:       <p>30 minute Coaching Sessions</p>
+     8:         <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nomads', index%><span class="glyphicon glyphicon-user"></span> Christy Schumm</a>
+     9:         <a type="button" class="btn btn-lg btn-primary" a href = "http://linkedin.com/in/heathermarie/"><span class="glyphicon glyphicon-user"></span> Natalia Stanton Jr.</a>
+    10:         <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Nola Murazik V</a>
+    11:         <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Elyssa O'Kon</a>
+  
+app/views/welcome/index.erb:8
+Started GET "/" for ::1 at 2021-09-01 00:32:28 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.6ms | Allocations: 1643)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1714)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2811)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `index' for #<ActionView::Base:0x007fec59aa6fe8>):
+     5:     </a>
+     6:     <h1>Guides</h1>
+     7:       <p>30 minute Coaching Sessions</p>
+     8:         <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nomads', index %><span class="glyphicon glyphicon-user"></span> Christy Schumm</a>
+     9:         <a type="button" class="btn btn-lg btn-primary" a href = "http://linkedin.com/in/heathermarie/"><span class="glyphicon glyphicon-user"></span> Natalia Stanton Jr.</a>
+    10:         <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Nola Murazik V</a>
+    11:         <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Elyssa O'Kon</a>
+  
+app/views/welcome/index.erb:8
+Started GET "/" for ::1 at 2021-09-01 00:33:18 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 2.1ms | Allocations: 1646)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1717)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 2814)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `index_path' for #<ActionView::Base:0x007fec551f0970>):
+     5:     </a>
+     6:     <h1>Guides</h1>
+     7:       <p>30 minute Coaching Sessions</p>
+     8:         <a type="button" class="btn btn-lg btn-primary" <%= link_to 'Nomads', index_path %><span class="glyphicon glyphicon-user"></span> Christy Schumm</a>
+     9:         <a type="button" class="btn btn-lg btn-primary" a href = "http://linkedin.com/in/heathermarie/"><span class="glyphicon glyphicon-user"></span> Natalia Stanton Jr.</a>
+    10:         <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Nola Murazik V</a>
+    11:         <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Elyssa O'Kon</a>
+  
+app/views/welcome/index.erb:8
+Started GET "/" for ::1 at 2021-09-01 00:34:49 -0400
+  
+SyntaxError (/Users/heather/Development/code/nomad/backend/config/routes.rb:4: syntax error, unexpected =>
+...dex' => 'nomadss#index', as: => :index
+...                             ^~):
+  
+config/routes.rb:4: syntax error, unexpected =>
+config/routes.rb:4: syntax error, unexpected =>
+config/routes.rb:4: syntax error, unexpected =>
+Started GET "/" for ::1 at 2021-09-01 00:35:35 -0400
+  
+SyntaxError (/Users/heather/Development/code/nomad/backend/config/routes.rb:4: syntax error, unexpected =>
+...ndex' => 'nomads#index', as: => :index
+...                             ^~):
+  
+config/routes.rb:4: syntax error, unexpected =>
+config/routes.rb:4: syntax error, unexpected =>
+config/routes.rb:4: syntax error, unexpected =>
+Started GET "/" for ::1 at 2021-09-01 00:37:35 -0400
+  
+ArgumentError (Invalid route name, already in use: 'nomads' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+https://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:4:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2021-09-01 00:37:47 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.5ms | Allocations: 764)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 5598)
+Completed 200 OK in 16ms (Views: 14.6ms | Allocations: 6726)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 00:37:54 -0400
+  
+ActionController::RoutingError (uninitialized constant NomadsController):
+  
+Started GET "/" for ::1 at 2021-09-01 00:38:45 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.5ms | Allocations: 746)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 5023)
+Completed 200 OK in 10ms (Views: 9.2ms | Allocations: 6137)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:39:32 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 0.7ms | Allocations: 1136)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1207)
+Completed 500 Internal Server Error in 4ms (Allocations: 2296)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="logo">
+      <img src="<%= asset_path('logo.png') %>">
+    </a>
+    <h1>Guides</h1>
+      <p>30 minute Coaching Sessions</p>
+        <a type="button" class="btn btn-lg btn-primary" <%= link_to <span class="glyphicon glyphicon-user">'Christy', index_path %><span class="glyphicon glyphicon-user"></span> Christy Schumm</a>
+        <a type="button" class="btn btn-lg btn-primary" a href = "http://linkedin.com/in/heathermarie/"><span class="glyphicon glyphicon-user"></span> Natalia Stanton Jr.</a>
+        <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Nola Murazik V</a>
+        <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Elyssa O'Kon</a>
+        <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Dr. Geovany Keebler</a>
+  </div>
+</div>
+
+):
+1:    <div class="jumbotron text-center">
+2:      <div class="container">
+3:        <a href="/" class="logo">
+4:          <img src="<%= asset_path('logo.png') %>">
+5:        </a>
+6:        <h1>Guides</h1>
+7:          <p>30 minute Coaching Sessions</p>
+8:            <a type="button" class="btn btn-lg btn-primary" <%= link_to <span class="glyphicon glyphicon-user">'Christy', index_path %><span class="glyphicon glyphicon-user"></span> Christy Schumm</a>
+9:            <a type="button" class="btn btn-lg btn-primary" a href = "http://linkedin.com/in/heathermarie/"><span class="glyphicon glyphicon-user"></span> Natalia Stanton Jr.</a>
+10:            <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Nola Murazik V</a>
+11:            <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Elyssa O'Kon</a>
+12:            <a type="button" class="btn btn-lg btn-primary" a href = "mailto: osxgirl@mac.com"><span class="glyphicon glyphicon-user"></span> Dr. Geovany Keebler</a>
+13:      </div>
+14:    </div>
+  
+app/views/welcome/index.erb:8: syntax error, unexpected class, expecting do or '{' or '('
+app/views/welcome/index.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/welcome/index.erb:8: syntax error, unexpected class, expecting do or '{' or '('
+app/views/welcome/index.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/welcome/index.erb:8: syntax error, unexpected class, expecting do or '{' or '('
+app/views/welcome/index.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/welcome/index.erb:8: syntax error, unexpected class, expecting do or '{' or '('
+app/views/welcome/index.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/welcome/index.erb:8: syntax error, unexpected class, expecting do or '{' or '('
+app/views/welcome/index.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/welcome/index.erb:8: syntax error, unexpected class, expecting do or '{' or '('
+app/views/welcome/index.erb:8: syntax error, unexpected ',', expecting ')'
+Started GET "/" for ::1 at 2021-09-01 00:39:38 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.6ms | Allocations: 746)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 5022)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 6137)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 00:39:51 -0400
+  
+ActionController::RoutingError (uninitialized constant NomadsController):
+  
+Started GET "/" for ::1 at 2021-09-01 00:40:34 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.2ms | Allocations: 745)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 5021)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 6130)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:40:46 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.6ms | Allocations: 745)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 5021)
+Completed 200 OK in 11ms (Views: 9.7ms | Allocations: 6130)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:40:54 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.7ms | Allocations: 745)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 5021)
+Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 6130)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:41:55 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.5ms | Allocations: 698)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 4980)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 6095)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:42:03 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.6ms | Allocations: 746)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 5022)
+Completed 200 OK in 11ms (Views: 9.6ms | Allocations: 6131)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 00:42:06 -0400
+  
+ActionController::RoutingError (uninitialized constant NomadsController):
+  
+Started GET "/" for ::1 at 2021-09-01 00:42:19 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.3ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 4973)
+Completed 200 OK in 10ms (Views: 8.7ms | Allocations: 6082)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:42:51 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.8ms | Allocations: 747)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 5023)
+Completed 200 OK in 12ms (Views: 10.3ms | Allocations: 6132)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:43:00 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.6ms | Allocations: 748)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 5028)
+Completed 200 OK in 10ms (Views: 8.4ms | Allocations: 6143)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:43:28 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.2ms | Allocations: 747)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 5023)
+Completed 200 OK in 8ms (Views: 7.2ms | Allocations: 6132)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 00:43:29 -0400
+  
+ActionController::RoutingError (uninitialized constant NomadsController):
+  
+Started GET "/nomads" for ::1 at 2021-09-01 00:43:35 -0400
+  
+ActionController::RoutingError (uninitialized constant NomadsController):
+  
+Started GET "/nomads" for ::1 at 2021-09-01 00:44:45 -0400
+Processing by NomadsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering nomads/index.erb within layouts/application
+  Rendered nomads/index.erb within layouts/application (Duration: 1.6ms | Allocations: 691)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 4969)
+Completed 200 OK in 10ms (Views: 8.6ms | Allocations: 6089)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 00:45:10 -0400
+Processing by NomadsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering nomads/index.erb within layouts/application
+  Rendered nomads/index.erb within layouts/application (Duration: 1.5ms | Allocations: 690)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 4972)
+Completed 200 OK in 12ms (Views: 10.7ms | Allocations: 6087)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 00:45:24 -0400
+Processing by NomadsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering nomads/index.erb within layouts/application
+  Rendered nomads/index.erb within layouts/application (Duration: 2.5ms | Allocations: 582)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 4636)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 5009)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:45:44 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 3.2ms | Allocations: 746)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 4801)
+Completed 200 OK in 15ms (Views: 13.7ms | Allocations: 5695)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:45:54 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.2ms | Allocations: 746)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 5022)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 6131)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:46:15 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.4ms | Allocations: 746)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 5022)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 6131)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 00:46:15 -0400
+Processing by NomadsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering nomads/index.erb within layouts/application
+  Rendered nomads/index.erb within layouts/application (Duration: 1.3ms | Allocations: 687)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 4743)
+Completed 200 OK in 8ms (Views: 6.5ms | Allocations: 5630)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:46:55 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.4ms | Allocations: 746)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 5022)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 6131)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:47:06 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 2.9ms | Allocations: 746)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 5022)
+Completed 200 OK in 12ms (Views: 10.8ms | Allocations: 6131)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:47:18 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.9ms | Allocations: 746)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 5022)
+Completed 200 OK in 11ms (Views: 9.6ms | Allocations: 6131)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:47:22 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.5ms | Allocations: 746)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 5022)
+Completed 200 OK in 24ms (Views: 23.1ms | Allocations: 6132)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 00:47:23 -0400
+Processing by NomadsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering nomads/index.erb within layouts/application
+  Rendered nomads/index.erb within layouts/application (Duration: 2.6ms | Allocations: 689)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 4745)
+Completed 200 OK in 16ms (Views: 14.0ms | Allocations: 5636)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 00:47:30 -0400
+Processing by NomadsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering nomads/index.erb within layouts/application
+  Rendered nomads/index.erb within layouts/application (Duration: 1.1ms | Allocations: 582)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 4636)
+Completed 200 OK in 9ms (Views: 8.0ms | Allocations: 5009)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:48:53 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 2.5ms | Allocations: 745)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 5646)
+Completed 200 OK in 18ms (Views: 16.4ms | Allocations: 6762)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 00:49:00 -0400
+Processing by NomadsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering nomads/index.erb within layouts/application
+  Rendered nomads/index.erb within layouts/application (Duration: 2.9ms | Allocations: 687)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 4743)
+Completed 200 OK in 17ms (Views: 15.4ms | Allocations: 5630)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 00:49:50 -0400
+Processing by NomadsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering nomads/index.erb within layouts/application
+  Rendered nomads/index.erb within layouts/application (Duration: 2.1ms | Allocations: 582)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4636)
+Completed 200 OK in 12ms (Views: 11.3ms | Allocations: 5011)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:52:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/welcome/index.erb:15
+  [1m[36mCoach Load (0.7ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:15
+  Rendered welcome/index.erb within layouts/application (Duration: 23.7ms | Allocations: 10265)
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 14541)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 1.9ms | Allocations: 15650)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCoach Load (1.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2021-09-01 00:54:20 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.9ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:15
+  Rendered welcome/index.erb within layouts/application (Duration: 96.4ms | Allocations: 26211)
+  Rendered layout layouts/application.html.erb (Duration: 123.6ms | Allocations: 31054)
+Completed 200 OK in 153ms (Views: 134.8ms | ActiveRecord: 1.9ms | Allocations: 33950)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:54:23 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.9ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:15
+  Rendered welcome/index.erb within layouts/application (Duration: 6.6ms | Allocations: 1566)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 5621)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.9ms | Allocations: 5997)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:54:24 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:15
+  Rendered welcome/index.erb within layouts/application (Duration: 21.4ms | Allocations: 1546)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 5600)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.2ms | Allocations: 5973)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:54:24 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:15
+  Rendered welcome/index.erb within layouts/application (Duration: 2.9ms | Allocations: 1546)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 5599)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.2ms | Allocations: 5971)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:54:47 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.3ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:16
+  Rendered welcome/index.erb within layouts/application (Duration: 6.9ms | Allocations: 1745)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 6025)
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.3ms | Allocations: 7139)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:55:14 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:9
+  Rendered welcome/index.erb within layouts/application (Duration: 6.5ms | Allocations: 1743)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 6019)
+Completed 200 OK in 27ms (Views: 24.6ms | ActiveRecord: 0.2ms | Allocations: 7129)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:55:35 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:9
+  Rendered welcome/index.erb within layouts/application (Duration: 5.6ms | Allocations: 1741)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 6018)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.2ms | Allocations: 7128)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCoaches (20210831213859)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "coaches" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "timezone" varchar, "weekday" varchar, "availableat" varchar, "availableuntil" varchar)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210831213859"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-09-01 04:56:28.643835"], ["updated_at", "2021-09-01 04:56:28.643835"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.6ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Christy Schumm"], ["timezone", "(GMT-06:00) America/North_Dakota/New_Salem)"], ["weekday", "Monday"], ["availableat", "9:00 AM"], ["availableuntil", "5:30 PM"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.5ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Christy Schumm"], ["timezone", "(GMT-06:00) America/North_Dakota/New_Salem)"], ["weekday", "Tuesday"], ["availableat", "8:00 AM"], ["availableuntil", "4:00 PM"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Christy Schumm"], ["timezone", "(GMT-06:00) America/North_Dakota/New_Salem)"], ["weekday", "Thursday"], ["availableat", "9:00 AM"], ["availableuntil", "4:00 PM"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.5ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Christy Schumm"], ["timezone", "(GMT-06:00) America/North_Dakota/New_Salem)"], ["weekday", "Friday"], ["availableat", "7:00 AM"], ["availableuntil", "2:00 PM"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Natalia Stanton Jr."], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Tuesday"], ["availableat", "8:00 AM"], ["availableuntil", "10:00 AM"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.5ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Natalia Stanton Jr."], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Wednesday"], ["availableat", "11:00 AM"], ["availableuntil", "6:00 PM"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Natalia Stanton Jr."], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Saturday"], ["availableat", "9:00 AM"], ["availableuntil", "3:00 PM"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Natalia Stanton Jr."], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Sunday"], ["availableat", "8:00 AM"], ["availableuntil", "3:00 PM"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Nola Murazik V"], ["timezone", "(GMT-09:00) America/Yakutat)"], ["weekday", "Monday"], ["availableat", "8:00 AM"], ["availableuntil", "10:00 AM"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Nola Murazik V"], ["timezone", "(GMT-09:00) America/Yakutat)"], ["weekday", "Tuesday"], ["availableat", "11:00 AM"], ["availableuntil", "1:00 AM"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Nola Murazik V"], ["timezone", "(GMT-09:00) America/Yakutat)"], ["weekday", "Wednesday"], ["availableat", "8:00 AM"], ["availableuntil", "10:00 AM"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Nola Murazik V"], ["timezone", "(GMT-09:00) America/Yakutat)"], ["weekday", "Saturday"], ["availableat", "8:00 AM"], ["availableuntil", "11:00 AM"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.3ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Nola Murazik V"], ["timezone", "(GMT-09:00) America/Yakutat)"], ["weekday", "Sunday"], ["availableat", "7:00 AM"], ["availableuntil", "9:00 AM"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Elyssa OKon"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Monday"], ["availableat", "9:00 AM"], ["availableuntil", "3:00 PM"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Elyssa OKon"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Tuesday"], ["availableat", "6:00 AM"], ["availableuntil", "1:00 PM"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.3ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Elyssa OKon"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Wednesday"], ["availableat", "6:00 AM"], ["availableuntil", "11:00 AM"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.3ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Elyssa OKon"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Friday"], ["availableat", "8:00 AM"], ["availableuntil", "12:00 PM"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.3ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Elyssa OKon"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Saturday"], ["availableat", "9:00 AM"], ["availableuntil", "4:00 PM"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Elyssa OKon"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Sunday"], ["availableat", "8:00 AM"], ["availableuntil", "10:00 AM"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.3ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Dr. Geovany Keebler"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Thursday"], ["availableat", "7:00 AM"], ["availableuntil", "2:00 PM"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Dr. Geovany Keebler"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Thursday"], ["availableat", "3:00 PM"], ["availableuntil", "5:00 PM"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2021-09-01 00:56:45 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (1.0ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:9
+  Rendered welcome/index.erb within layouts/application (Duration: 90.0ms | Allocations: 26330)
+  Rendered layout layouts/application.html.erb (Duration: 109.2ms | Allocations: 31250)
+Completed 200 OK in 136ms (Views: 119.5ms | ActiveRecord: 1.7ms | Allocations: 34421)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:56:47 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:9
+  Rendered welcome/index.erb within layouts/application (Duration: 7.3ms | Allocations: 1566)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 5621)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.2ms | Allocations: 5997)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:56:48 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:9
+  Rendered welcome/index.erb within layouts/application (Duration: 23.7ms | Allocations: 1561)
+  Rendered layout layouts/application.html.erb (Duration: 28.2ms | Allocations: 5617)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.2ms | Allocations: 5993)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:56:48 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.3ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:9
+  Rendered welcome/index.erb within layouts/application (Duration: 4.6ms | Allocations: 1546)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 5599)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.3ms | Allocations: 5971)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:56:48 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:9
+  Rendered welcome/index.erb within layouts/application (Duration: 2.9ms | Allocations: 1561)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 5616)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.2ms | Allocations: 5991)
+
+
+Started GET "/" for ::1 at 2021-09-01 00:58:19 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (1.0ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:16
+  Rendered welcome/index.erb within layouts/application (Duration: 6.1ms | Allocations: 1756)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 6038)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 1.0ms | Allocations: 7156)
+
+
+Started GET "/" for ::1 at 2021-09-01 01:02:26 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:13
+  Rendered welcome/index.erb within layouts/application (Duration: 3.8ms | Allocations: 1745)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 6025)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.2ms | Allocations: 7140)
+
+
+Started GET "/" for ::1 at 2021-09-01 01:03:01 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:13
+  Rendered welcome/index.erb within layouts/application (Duration: 3.8ms | Allocations: 1740)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 6016)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.2ms | Allocations: 7125)
+
+
+Started GET "/" for ::1 at 2021-09-01 01:03:26 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.3ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:12
+  Rendered welcome/index.erb within layouts/application (Duration: 3.9ms | Allocations: 1740)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 6016)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.3ms | Allocations: 7125)
+
+
+Started GET "/" for ::1 at 2021-09-01 01:03:28 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/welcome/index.erb:12
+  Rendered welcome/index.erb within layouts/application (Duration: 3.1ms | Allocations: 1551)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 5604)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.2ms | Allocations: 5977)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 01:03:29 -0400
+Processing by NomadsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering nomads/index.erb within layouts/application
+  Rendered nomads/index.erb within layouts/application (Duration: 1.9ms | Allocations: 692)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 4748)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 5646)
+
+
+Started GET "/" for ::1 at 2021-09-01 01:03:51 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.2ms | Allocations: 744)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 5024)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 6139)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 01:04:23 -0400
+Processing by NomadsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering nomads/index.erb within layouts/application
+  Rendered nomads/index.erb within layouts/application (Duration: 1.7ms | Allocations: 687)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 4743)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 5632)
+
+
+Started GET "/" for ::1 at 2021-09-01 01:05:31 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.3ms | Allocations: 743)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 5019)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 6128)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 01:05:37 -0400
+Processing by NomadsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering nomads/index.erb within layouts/application
+  [1m[36mCoach Load (0.3ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/nomads/index.erb:10
+  Rendered nomads/index.erb within layouts/application (Duration: 4.9ms | Allocations: 1690)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 5746)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.3ms | Allocations: 6640)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 01:07:11 -0400
+Processing by NomadsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering nomads/index.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/nomads/index.erb:10
+  Rendered nomads/index.erb within layouts/application (Duration: 6.0ms | Allocations: 1685)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 5966)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.2ms | Allocations: 7077)
+
+
+Started GET "/" for ::1 at 2021-09-01 01:10:31 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 2.3ms | Allocations: 743)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 5649)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 6764)
+
+
+Started GET "/" for ::1 at 2021-09-01 01:10:31 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.3ms | Allocations: 615)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 4669)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 5043)
+
+
+Started GET "/nomads" for ::1 at 2021-09-01 01:10:37 -0400
+Processing by NomadsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering nomads/index.erb within layouts/application
+  Rendered nomads/index.erb within layouts/application (Duration: 2.0ms | Allocations: 687)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 5261)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 6156)
+
+
