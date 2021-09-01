@@ -923,6 +923,7 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 20ms (Views: 9.3ms | Allocations: 1834)
 
 
+<<<<<<< HEAD
 Started GET "/" for ::1 at 2021-08-31 22:37:55 -0400
   [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
@@ -1581,5 +1582,27 @@ Processing by WelcomeController#index as HTML
   Rendered welcome/index.erb within layouts/application (Duration: 3.9ms | Allocations: 1422)
   Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 6063)
 Completed 200 OK in 13ms (Views: 12.8ms | Allocations: 6435)
+
+
+=======
+>>>>>>> e540e87a2dd753a4dd99872318e079544af5768f
+Started GET "/" for ::1 at 2021-08-31 23:53:58 -0400
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 265.4ms | Allocations: 28808)
+  Rendered layout layouts/application.html.erb (Duration: 284.5ms | Allocations: 33701)
+Completed 200 OK in 310ms (Views: 289.9ms | ActiveRecord: 0.0ms | Allocations: 36405)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:56:54 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.7ms | Allocations: 697)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 4980)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 6100)
 
 
