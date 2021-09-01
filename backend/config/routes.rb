@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
     root 'welcome#index'
-    resources :nomads
-    get 'nomads', to: 'nomads#index', as: 'index'
+    
+    resources :trainer1
+    get 'trainer1', to: 'trainer1#index', as: 'index'
+    
     namespace :api do
       namespace :v1 do
         resources :coaches, only: [:index, :create, :destroy, :update]
