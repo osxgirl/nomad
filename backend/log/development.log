@@ -422,3 +422,1164 @@ Processing by Api::V1::CoachesController#index as JSON
 Completed 200 OK in 25ms (Views: 13.8ms | ActiveRecord: 2.1ms | Allocations: 8974)
 
 
+Started GET "/foods" for ::1 at 2021-08-31 20:23:45 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/foods"):
+  
+Started GET "/foods" for ::1 at 2021-08-31 20:24:21 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/foods"):
+  
+Started GET "/foods" for ::1 at 2021-08-31 20:24:27 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/foods"):
+  
+Started GET "/" for ::1 at 2021-08-31 20:24:28 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.6ms | Allocations: 233)
+Completed 200 OK in 19ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 1835)
+
+
+Started GET "/catalog" for ::1 at 2021-08-31 20:24:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/catalog"):
+  
+Started GET "/coaches" for ::1 at 2021-08-31 20:24:30 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/coaches"):
+  
+Started GET "/coaches" for ::1 at 2021-08-31 20:25:46 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/coaches"):
+  
+Started GET "/coaches" for ::1 at 2021-08-31 20:26:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/coaches"):
+  
+Started GET "/coaches" for ::1 at 2021-08-31 21:10:52 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/coaches"):
+  
+Started GET "/" for ::1 at 2021-08-31 21:10:57 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 10.6ms | Allocations: 229)
+Completed 200 OK in 15ms (Views: 12.6ms | Allocations: 871)
+
+
+Started GET "/" for ::1 at 2021-08-31 21:11:00 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 44)
+Completed 200 OK in 2ms (Views: 0.9ms | Allocations: 340)
+
+
+Started GET "/" for ::1 at 2021-08-31 21:11:04 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 44)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 337)
+
+
+Started GET "/welcome" for ::1 at 2021-08-31 21:11:05 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+Started GET "/welcome" for ::1 at 2021-08-31 21:11:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+Started GET "/" for ::1 at 2021-08-31 21:11:32 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 44)
+Completed 200 OK in 2ms (Views: 1.0ms | Allocations: 338)
+
+
+Started GET "/" for ::1 at 2021-08-31 21:11:45 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 44)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 337)
+
+
+Started GET "/index" for ::1 at 2021-08-31 21:11:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+Started GET "/index" for ::1 at 2021-08-31 21:12:51 -0400
+  
+ArgumentError (Missing :action key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block (3 levels) in <main>'
+config/routes.rb:3:in `block (2 levels) in <main>'
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/index" for ::1 at 2021-08-31 21:13:11 -0400
+  
+ArgumentError (Missing :action key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block (3 levels) in <main>'
+config/routes.rb:3:in `block (2 levels) in <main>'
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2021-08-31 21:13:39 -0400
+  
+ArgumentError (Missing :action key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block (3 levels) in <main>'
+config/routes.rb:3:in `block (2 levels) in <main>'
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2021-08-31 21:13:45 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 44)
+Completed 200 OK in 1ms (Views: 0.6ms | Allocations: 338)
+
+
+Started GET "/" for ::1 at 2021-08-31 21:14:16 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.5ms | Allocations: 233)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 872)
+
+
+Started GET "/" for ::1 at 2021-08-31 21:15:37 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.4ms | Allocations: 228)
+Completed 200 OK in 11ms (Views: 9.1ms | Allocations: 864)
+
+
+Started GET "/" for ::1 at 2021-08-31 21:15:41 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 44)
+Completed 200 OK in 2ms (Views: 1.2ms | Allocations: 338)
+
+
+Started GET "/welcome" for ::1 at 2021-08-31 21:15:43 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+Started GET "/welcome" for ::1 at 2021-08-31 21:16:11 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 21:16:42 -0400
+  
+ActionController::RoutingError (uninitialized constant Api::V1::WelcomeController):
+  
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 21:17:44 -0400
+  
+Zeitwerk::NameError (expected file /Users/heather/Development/code/nomad/backend/app/controllers/api/v1/welcome_controller.rb to define constant Api::V1::WelcomeController, but didn't):
+  
+zeitwerk (2.4.2) lib/zeitwerk/loader/callbacks.rb:18:in `on_file_autoloaded'
+zeitwerk (2.4.2) lib/zeitwerk/kernel.rb:27:in `block in require'
+zeitwerk (2.4.2) lib/zeitwerk/kernel.rb:26:in `tap'
+zeitwerk (2.4.2) lib/zeitwerk/kernel.rb:26:in `require'
+activesupport (6.1.4.1) lib/active_support/inflector/methods.rb:288:in `const_get'
+activesupport (6.1.4.1) lib/active_support/inflector/methods.rb:288:in `block in constantize'
+activesupport (6.1.4.1) lib/active_support/inflector/methods.rb:284:in `each'
+activesupport (6.1.4.1) lib/active_support/inflector/methods.rb:284:in `inject'
+activesupport (6.1.4.1) lib/active_support/inflector/methods.rb:284:in `constantize'
+activesupport (6.1.4.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.1.4.1) lib/action_dispatch/http/request.rb:93:in `controller_class_for'
+actionpack (6.1.4.1) lib/action_dispatch/request/utils.rb:95:in `action_encoding_template'
+actionpack (6.1.4.1) lib/action_dispatch/request/utils.rb:83:in `encode'
+actionpack (6.1.4.1) lib/action_dispatch/request/utils.rb:45:in `set_binary_encoding'
+actionpack (6.1.4.1) lib/action_dispatch/http/parameters.rb:68:in `path_parameters='
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.3) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.2) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.4.0) lib/puma/configuration.rb:249:in `call'
+puma (5.4.0) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.4.0) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.4.0) lib/puma/request.rb:76:in `handle_request'
+puma (5.4.0) lib/puma/server.rb:440:in `process_client'
+puma (5.4.0) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 21:18:26 -0400
+  
+NoMethodError (undefined method `respond_to' for Api::V1::BaseController:Class):
+  
+app/controllers/api/v1/base_controller.rb:2:in `<class:BaseController>'
+app/controllers/api/v1/base_controller.rb:1:in `<main>'
+app/controllers/api/v1/welcome_controller.rb:1:in `<main>'
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 21:18:41 -0400
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for Api::V1::WelcomeController):
+  
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.4.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.3) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.2) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.4.0) lib/puma/configuration.rb:249:in `call'
+puma (5.4.0) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.4.0) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.4.0) lib/puma/request.rb:76:in `handle_request'
+puma (5.4.0) lib/puma/server.rb:440:in `process_client'
+puma (5.4.0) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 21:18:51 -0400
+  
+NoMethodError (undefined method `respond_to' for Api::V1::BaseController:Class):
+  
+app/controllers/api/v1/base_controller.rb:2:in `<class:BaseController>'
+app/controllers/api/v1/base_controller.rb:1:in `<main>'
+app/controllers/api/v1/welcome_controller.rb:1:in `<main>'
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 21:18:54 -0400
+Processing by Api::V1::WelcomeController#index as HTML
+Completed 406 Not Acceptable in 6ms (Allocations: 2454)
+
+
+  
+ActionController::MissingExactTemplate (Api::V1::WelcomeController#index is missing a template for request formats: text/html):
+  
+actionpack (6.1.4.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.4.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+actiontext (6.1.4.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (6.1.4.1) lib/action_text/engine.rb:59:in `block (4 levels) in <class:Engine>'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:126:in `instance_exec'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.4.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.4.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.4.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.4.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.4.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.4.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.4.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.3) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.2) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.4.0) lib/puma/configuration.rb:249:in `call'
+puma (5.4.0) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.4.0) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.4.0) lib/puma/request.rb:76:in `handle_request'
+puma (5.4.0) lib/puma/server.rb:440:in `process_client'
+puma (5.4.0) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 21:19:22 -0400
+  
+NoMethodError (undefined method `respond_to' for Api::V1::BaseController:Class):
+  
+app/controllers/api/v1/base_controller.rb:2:in `<class:BaseController>'
+app/controllers/api/v1/base_controller.rb:1:in `<main>'
+app/controllers/api/v1/welcome_controller.rb:1:in `<main>'
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 21:19:24 -0400
+Processing by Api::V1::WelcomeController#index as HTML
+Completed 406 Not Acceptable in 6ms (Allocations: 2402)
+
+
+  
+ActionController::MissingExactTemplate (Api::V1::WelcomeController#index is missing a template for request formats: text/html):
+  
+actionpack (6.1.4.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.4.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+actiontext (6.1.4.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (6.1.4.1) lib/action_text/engine.rb:59:in `block (4 levels) in <class:Engine>'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:126:in `instance_exec'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.4.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.4.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.4.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.4.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.4.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.4.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.4.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.3) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.2) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.4.0) lib/puma/configuration.rb:249:in `call'
+puma (5.4.0) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.4.0) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.4.0) lib/puma/request.rb:76:in `handle_request'
+puma (5.4.0) lib/puma/server.rb:440:in `process_client'
+puma (5.4.0) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 21:19:42 -0400
+  
+NoMethodError (undefined method `respond_to' for Api::V1::BaseController:Class):
+  
+app/controllers/api/v1/base_controller.rb:2:in `<class:BaseController>'
+app/controllers/api/v1/base_controller.rb:1:in `<main>'
+app/controllers/api/v1/welcome_controller.rb:1:in `<main>'
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 21:19:59 -0400
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NoMethodError (undefined method `respond_to' for Api::V1::BaseController:Class):
+  
+app/controllers/api/v1/base_controller.rb:2:in `<class:BaseController>'
+app/controllers/api/v1/base_controller.rb:1:in `<main>'
+app/controllers/api/v1/welcome_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2021-08-31 21:24:18 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.0ms | Allocations: 234)
+Completed 200 OK in 20ms (Views: 9.3ms | Allocations: 1834)
+
+
+Started GET "/" for ::1 at 2021-08-31 22:37:55 -0400
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.8ms | Allocations: 355)
+Completed 200 OK in 37ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 2681)
+
+
+Started GET "/" for ::1 at 2021-08-31 22:38:17 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 45.5ms | Allocations: 1139)
+Completed 200 OK in 48ms (Views: 46.5ms | ActiveRecord: 0.0ms | Allocations: 1832)
+
+
+Started GET "/api/v1/coaches.json" for ::1 at 2021-08-31 22:38:17 -0400
+  
+NoMethodError (undefined method `respond_to' for Api::V1::BaseController:Class):
+  
+app/controllers/api/v1/base_controller.rb:2:in `<class:BaseController>'
+app/controllers/api/v1/base_controller.rb:1:in `<main>'
+app/controllers/api/v1/coaches_controller.rb:1:in `<main>'
+Started GET "/api/v1/coaches.json" for ::1 at 2021-08-31 22:38:23 -0400
+Processing by Api::V1::CoachesController#index as JSON
+  [1m[36mCoach Load (1.3ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/controllers/api/v1/coaches_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 7.7ms | ActiveRecord: 1.8ms | Allocations: 7320)
+
+
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 22:38:26 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/welcome"):
+  
+Started GET "/api/v1/index" for ::1 at 2021-08-31 22:38:37 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/index"):
+  
+Started GET "/api/v1/index" for ::1 at 2021-08-31 22:39:02 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/index"):
+  
+Started GET "/api/v1/coaches.json" for ::1 at 2021-08-31 22:39:06 -0400
+  
+NoMethodError (undefined method `respond_to' for Api::V1::BaseController:Class):
+  
+app/controllers/api/v1/base_controller.rb:2:in `<class:BaseController>'
+app/controllers/api/v1/base_controller.rb:1:in `<main>'
+app/controllers/api/v1/coaches_controller.rb:1:in `<main>'
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 22:39:08 -0400
+  
+ActionController::RoutingError (uninitialized constant Api::V1::WelcomeController):
+  
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 22:39:52 -0400
+  
+NoMethodError (undefined method `respond_to' for Api::V1::BaseController:Class):
+  
+app/controllers/api/v1/base_controller.rb:2:in `<class:BaseController>'
+app/controllers/api/v1/base_controller.rb:1:in `<main>'
+app/controllers/api/v1/welcome_controller.rb:1:in `<main>'
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 22:40:07 -0400
+  
+NoMethodError (undefined method `respond_to' for Api::V1::BaseController:Class):
+  
+app/controllers/api/v1/base_controller.rb:2:in `<class:BaseController>'
+app/controllers/api/v1/base_controller.rb:1:in `<main>'
+app/controllers/api/v1/welcome_controller.rb:1:in `<main>'
+Started GET "/api/v1/welcome" for ::1 at 2021-08-31 22:40:10 -0400
+Processing by Api::V1::WelcomeController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/api/v1/welcome_controller.rb:6:in `index'
+  [1m[36mCoach Load (0.9ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/controllers/api/v1/welcome_controller.rb:6:in `index'
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 2.0ms | Allocations: 7220)
+
+
+Started GET "/" for ::1 at 2021-08-31 22:42:14 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | Allocations: 44)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 361)
+
+
+Started GET "/" for ::1 at 2021-08-31 22:45:51 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 44)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 337)
+
+
+Started GET "/" for ::1 at 2021-08-31 22:46:19 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 44)
+Completed 200 OK in 1ms (Views: 0.6ms | Allocations: 337)
+
+
+Started GET "/" for ::1 at 2021-08-31 22:46:22 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 44)
+Completed 200 OK in 1ms (Views: 0.9ms | Allocations: 337)
+
+
+Started GET "/api/v1/" for ::1 at 2021-08-31 22:46:55 -0400
+  
+NoMethodError (undefined method `respond_to' for Api::V1::BaseController:Class):
+  
+app/controllers/api/v1/base_controller.rb:2:in `<class:BaseController>'
+app/controllers/api/v1/base_controller.rb:1:in `<main>'
+app/controllers/api/v1/welcome_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2021-08-31 22:47:55 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 44)
+Completed 200 OK in 3ms (Views: 1.6ms | Allocations: 338)
+
+
+Started GET "/api/v1/coaches.json" for ::1 at 2021-08-31 22:50:11 -0400
+  
+NoMethodError (undefined method `respond_to' for Api::V1::BaseController:Class):
+  
+app/controllers/api/v1/base_controller.rb:2:in `<class:BaseController>'
+app/controllers/api/v1/base_controller.rb:1:in `<main>'
+app/controllers/api/v1/coaches_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2021-08-31 22:50:12 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 44)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 338)
+
+
+Started GET "/" for ::1 at 2021-08-31 22:50:31 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.7ms | Allocations: 1077)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1147)
+Completed 500 Internal Server Error in 4ms (Allocations: 2189)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x00007fb867ec0618>::Cowsay):
+    1: 
+    2: 
+    3: <pre>
+    4: <%= Cowsay.say("Hello", "Cow") %>
+    5: </pre>
+    6: <div class="jumbotron text-center">
+    7:   <div class="container">
+  
+app/views/welcome/index.erb:4
+Started GET "/" for ::1 at 2021-08-31 22:50:50 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 10.6ms | Allocations: 3795)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3865)
+Completed 500 Internal Server Error in 13ms (Allocations: 4905)
+
+
+  
+ActionView::Template::Error (The asset "logo.png" is not present in the asset pipeline.
+):
+    4: <div class="jumbotron text-center">
+    5:   <div class="container">
+    6:     <a href="/" class="logo">
+    7:       <img src="<%= asset_path('logo.png') %>">
+    8:     </a>
+    9:     <h1>Heather Haas</h1>
+   10:     
+  
+app/views/welcome/index.erb:7
+Started GET "/" for ::1 at 2021-08-31 22:51:53 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 20.4ms | Allocations: 9966)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/heather/Development/code/nomad/backend/public/packs
+[Webpacker] Hash: 0fe7dcd9d8f9ebcf52de
+Version: webpack 4.46.0
+Time: 1424ms
+Built at: 08/31/2021 10:51:57 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-2e212f7c8f867558ac6e.js    121 KiB  application  [emitted] [immutable]  application
+js/application-2e212f7c8f867558ac6e.js.map    136 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-2e212f7c8f867558ac6e.js js/application-2e212f7c8f867558ac6e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 4383.7ms | Allocations: 16181)
+Completed 200 OK in 4385ms (Views: 4384.4ms | Allocations: 16502)
+
+
+Started GET "/" for ::1 at 2021-08-31 22:52:25 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 31.9ms | Allocations: 2455)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 6223)
+Completed 200 OK in 59ms (Views: 44.8ms | ActiveRecord: 0.0ms | Allocations: 8951)
+
+
+Started GET "/" for ::1 at 2021-08-31 22:53:37 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 2.4ms | Allocations: 682)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 10319)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 11419)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    2: <html>
+    3: <head>
+    4:   <title>Nomad 🐫</title>
+    5:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    6:   <%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
+    7:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    8:   <%= javascript_include_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' %>
+  
+app/views/layouts/application.html.erb:5
+Started GET "/" for ::1 at 2021-08-31 22:54:12 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 0.9ms | Allocations: 654)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 6588)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 7029)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    2: <html>
+    3: <head>
+    4:   <title>Nomad 🐫</title>
+    5:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    6:   <%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
+    7:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    8:   <%= javascript_include_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' %>
+  
+app/views/layouts/application.html.erb:5
+Started GET "/" for ::1 at 2021-08-31 22:54:34 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.0ms | Allocations: 568)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 6490)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 6844)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    2: <html>
+    3: <head>
+    4:   <title>Nomad 🐫</title>
+    5:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    6:   <%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
+    7:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    8:   <%= javascript_include_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' %>
+  
+app/views/layouts/application.html.erb:5
+Started GET "/" for ::1 at 2021-08-31 22:54:35 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 0.9ms | Allocations: 568)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 6489)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 6840)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    2: <html>
+    3: <head>
+    4:   <title>Nomad 🐫</title>
+    5:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    6:   <%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
+    7:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    8:   <%= javascript_include_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' %>
+  
+app/views/layouts/application.html.erb:5
+Started GET "/" for ::1 at 2021-08-31 22:55:02 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.1ms | Allocations: 568)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 6489)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 6840)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+    2: <html>
+    3: <head>
+    4:   <title>Nomad 🐫</title>
+    5:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    6:   <%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
+    7:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    8:   <%= javascript_include_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' %>
+  
+app/views/layouts/application.html.erb:5
+Started GET "/" for ::1 at 2021-08-31 22:55:25 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 25.2ms | Allocations: 7175)
+  Rendered layout layouts/application.html.erb (Duration: 74.6ms | Allocations: 12854)
+Completed 500 Internal Server Error in 109ms (ActiveRecord: 0.0ms | Allocations: 15835)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/heather/Development/code/nomad/backend/app/assets/config
+  /Users/heather/Development/code/nomad/backend/app/assets/images
+  /Users/heather/Development/code/nomad/backend/app/assets/javascripts
+  /Users/heather/Development/code/nomad/backend/app/assets/stylesheets
+  /Users/heather/.rvm/gems/ruby-2.6.1/gems/actioncable-6.1.4.1/app/assets/javascripts
+  /Users/heather/.rvm/gems/ruby-2.6.1/gems/activestorage-6.1.4.1/app/assets/javascripts
+  /Users/heather/.rvm/gems/ruby-2.6.1/gems/actionview-6.1.4.1/lib/assets/compiled
+  /Users/heather/.rvm/gems/ruby-2.6.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/heather/Development/code/nomad/backend/node_modules):
+    2: <html>
+    3: <head>
+    4:   <title>Nomad 🐫</title>
+    5:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    6:   <%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
+    7:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    8:   <%= javascript_include_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' %>
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:5
+Started GET "/" for ::1 at 2021-08-31 22:58:48 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 37.0ms | Allocations: 2506)
+  Rendered layout layouts/application.html.erb (Duration: 45.5ms | Allocations: 8229)
+Completed 500 Internal Server Error in 73ms (ActiveRecord: 0.0ms | Allocations: 10993)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/heather/Development/code/nomad/backend/app/assets/config
+  /Users/heather/Development/code/nomad/backend/app/assets/images
+  /Users/heather/Development/code/nomad/backend/app/assets/javascripts
+  /Users/heather/Development/code/nomad/backend/app/assets/stylesheets
+  /Users/heather/.rvm/gems/ruby-2.6.1/gems/actioncable-6.1.4.1/app/assets/javascripts
+  /Users/heather/.rvm/gems/ruby-2.6.1/gems/activestorage-6.1.4.1/app/assets/javascripts
+  /Users/heather/.rvm/gems/ruby-2.6.1/gems/actionview-6.1.4.1/lib/assets/compiled
+  /Users/heather/.rvm/gems/ruby-2.6.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/heather/Development/code/nomad/backend/node_modules):
+    2: <html>
+    3: <head>
+    4:   <title>Nomad 🐫</title>
+    5:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    6:   <%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
+    7:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    8:   <%= javascript_include_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' %>
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:5
+Started GET "/" for ::1 at 2021-08-31 23:00:22 -0400
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 34.1ms | Allocations: 2506)
+  Rendered layout layouts/application.html.erb (Duration: 42.2ms | Allocations: 8229)
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms | Allocations: 10930)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/heather/Development/code/nomad/backend/app/assets/config
+  /Users/heather/Development/code/nomad/backend/app/assets/images
+  /Users/heather/Development/code/nomad/backend/app/assets/javascripts
+  /Users/heather/Development/code/nomad/backend/app/assets/stylesheets
+  /Users/heather/.rvm/gems/ruby-2.6.1/gems/actioncable-6.1.4.1/app/assets/javascripts
+  /Users/heather/.rvm/gems/ruby-2.6.1/gems/activestorage-6.1.4.1/app/assets/javascripts
+  /Users/heather/.rvm/gems/ruby-2.6.1/gems/actionview-6.1.4.1/lib/assets/compiled
+  /Users/heather/.rvm/gems/ruby-2.6.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/heather/Development/code/nomad/backend/node_modules):
+    2: <html>
+    3: <head>
+    4:   <title>Nomad 🐫</title>
+    5:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    6:   <%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
+    7:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    8:   <%= javascript_include_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' %>
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:5
+Started GET "/" for ::1 at 2021-08-31 23:05:07 -0400
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 33.4ms | Allocations: 7570)
+  Rendered layout layouts/application.html.erb (Duration: 149.7ms | Allocations: 28827)
+Completed 500 Internal Server Error in 204ms (ActiveRecord: 0.0ms | Allocations: 31942)
+
+
+  
+LoadError (cannot load such file -- coffee_script):
+  
+app/views/layouts/application.html.erb:5
+Started GET "/" for ::1 at 2021-08-31 23:05:47 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.1ms | Allocations: 692)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 13271)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 13707)
+
+
+  
+LoadError (cannot load such file -- coffee_script):
+  
+app/views/layouts/application.html.erb:5
+Started GET "/" for ::1 at 2021-08-31 23:05:55 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.3ms | Allocations: 606)
+  Rendered layout layouts/application.html.erb (Duration: 113.8ms | Allocations: 19122)
+Completed 500 Internal Server Error in 115ms (ActiveRecord: 0.0ms | Allocations: 19476)
+
+
+  
+ActionView::Template::Error (application.js):
+    2: <html>
+    3: <head>
+    4:   <title>Nomad 🐫</title>
+    5:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    6:   <%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
+    7:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    8:   <%= javascript_include_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' %>
+  
+app/views/layouts/application.html.erb:5
+Started GET "/" for ::1 at 2021-08-31 23:09:40 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.9ms | Allocations: 606)
+  Rendered layout layouts/application.html.erb (Duration: 408.1ms | Allocations: 70846)
+Completed 200 OK in 409ms (Views: 408.8ms | Allocations: 71375)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:13:15 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 3.2ms | Allocations: 855)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4914)
+Completed 200 OK in 12ms (Views: 11.4ms | Allocations: 5289)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:13:20 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.1ms | Allocations: 582)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 4602)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 4974)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:16:43 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.8ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 15524)
+Completed 200 OK in 35ms (Views: 34.1ms | Allocations: 16639)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:17:38 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.7ms | Allocations: 606)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 4713)
+Completed 200 OK in 8ms (Views: 7.6ms | Allocations: 5086)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:18:23 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 3.6ms | Allocations: 1423)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 5505)
+Completed 200 OK in 11ms (Views: 10.7ms | Allocations: 5879)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:20:19 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.7ms | Allocations: 706)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 4982)
+Completed 200 OK in 13ms (Views: 12.1ms | Allocations: 6097)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:20:49 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.3ms | Allocations: 704)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 4976)
+Completed 200 OK in 9ms (Views: 7.6ms | Allocations: 6085)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:21:11 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.2ms | Allocations: 701)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 4973)
+Completed 200 OK in 8ms (Views: 6.6ms | Allocations: 6082)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:25:31 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 10.8ms | Allocations: 973)
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 5282)
+Completed 200 OK in 40ms (Views: 33.8ms | Allocations: 6391)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:27:30 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.8ms | Allocations: 703)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 4979)
+Completed 200 OK in 11ms (Views: 10.1ms | Allocations: 6094)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:27:52 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.2ms | Allocations: 701)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 4973)
+Completed 200 OK in 8ms (Views: 7.0ms | Allocations: 6082)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:28:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.8ms | Allocations: 701)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 4973)
+Completed 200 OK in 10ms (Views: 9.1ms | Allocations: 6083)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:28:38 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.5ms | Allocations: 701)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 4973)
+Completed 200 OK in 10ms (Views: 8.8ms | Allocations: 6082)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:28:44 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.2ms | Allocations: 582)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 4626)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 5001)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:35:09 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 7.9ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 56.4ms | Allocations: 15759)
+Completed 200 OK in 70ms (Views: 63.8ms | Allocations: 16873)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:35:17 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 2.3ms | Allocations: 582)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 4634)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 5009)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:36:17 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.6ms | Allocations: 582)
+  Rendered layout layouts/application.html.erb (Duration: 59.1ms | Allocations: 16893)
+Completed 200 OK in 60ms (Views: 59.6ms | Allocations: 17265)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:37:26 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.4ms | Allocations: 582)
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 15965)
+Completed 200 OK in 38ms (Views: 37.1ms | Allocations: 16337)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:37:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 2.7ms | Allocations: 582)
+  Rendered layout layouts/application.html.erb (Duration: 78.5ms | Allocations: 16472)
+Completed 200 OK in 82ms (Views: 79.1ms | Allocations: 16844)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:37:46 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 0.8ms | Allocations: 583)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 16387)
+Completed 200 OK in 25ms (Views: 24.2ms | Allocations: 16759)
+
+
+Started GET "/" for ::1 at 2021-08-31 23:40:34 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 3.9ms | Allocations: 1422)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 6063)
+Completed 200 OK in 13ms (Views: 12.8ms | Allocations: 6435)
+
+
