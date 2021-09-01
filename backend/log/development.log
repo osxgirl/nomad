@@ -5312,3 +5312,56 @@ Processing by Trainer5Controller#geovany as HTML
 Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.2ms | Allocations: 6711)
 
 
+Started GET "/trainer5" for ::1 at 2021-09-01 10:16:03 -0400
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Trainer5Controller#geovany as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer5/geovany.erb within layouts/application
+  [1m[36mCoach Load (0.3ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/trainer5/geovany.erb:7
+  Rendered trainer5/geovany.erb within layouts/application (Duration: 98.0ms | Allocations: 26779)
+  Rendered layout layouts/application.html.erb (Duration: 116.3ms | Allocations: 31633)
+Completed 200 OK in 143ms (Views: 126.8ms | ActiveRecord: 1.6ms | Allocations: 34887)
+
+
+Started GET "/trainer5" for ::1 at 2021-09-01 10:16:28 -0400
+Processing by Trainer5Controller#geovany as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer5/geovany.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/trainer5/geovany.erb:7
+  Rendered trainer5/geovany.erb within layouts/application (Duration: 4.1ms | Allocations: 1559)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 5615)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.2ms | Allocations: 6009)
+
+
+Started GET "/trainer5" for ::1 at 2021-09-01 10:16:28 -0400
+Processing by Trainer5Controller#geovany as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer5/geovany.erb within layouts/application
+  [1m[36mCoach Load (0.2ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches"[0m
+  ↳ app/views/trainer5/geovany.erb:7
+  Rendered trainer5/geovany.erb within layouts/application (Duration: 6.5ms | Allocations: 1550)
+  Rendered layout layouts/application.html.erb (Duration: 30.1ms | Allocations: 5605)
+Completed 200 OK in 33ms (Views: 30.6ms | ActiveRecord: 0.2ms | Allocations: 5992)
+
+
+Started GET "/" for ::1 at 2021-09-01 10:16:29 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.7ms | Allocations: 908)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 4965)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 5868)
+
+
+Started GET "/" for ::1 at 2021-09-01 10:16:31 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 1.5ms | Allocations: 683)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 4736)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 5109)
+
+
