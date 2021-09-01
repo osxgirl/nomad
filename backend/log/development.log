@@ -5864,3 +5864,128 @@ Processing by Trainer5Controller#geovany as HTML
 Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.2ms | Allocations: 6946)
 
 
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCoaches (20210831213859)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "coaches" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "timezone" varchar, "weekday" varchar, "availableat" varchar, "availableuntil" varchar)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210831213859"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-09-01 15:34:08.887053"], ["updated_at", "2021-09-01 15:34:08.887053"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.5ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Christy Schumm"], ["timezone", "(GMT-06:00) America/North_Dakota/New_Salem)"], ["weekday", "Monday"], ["availableat", "9:00 AM"], ["availableuntil", "5:30 PM"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Christy Schumm"], ["timezone", "(GMT-06:00) America/North_Dakota/New_Salem)"], ["weekday", "Tuesday"], ["availableat", "8:00 AM"], ["availableuntil", "4:00 PM"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Christy Schumm"], ["timezone", "(GMT-06:00) America/North_Dakota/New_Salem)"], ["weekday", "Thursday"], ["availableat", "9:00 AM"], ["availableuntil", "4:00 PM"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Christy Schumm"], ["timezone", "(GMT-06:00) America/North_Dakota/New_Salem)"], ["weekday", "Friday"], ["availableat", "7:00 AM"], ["availableuntil", "2:00 PM"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.5ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Natalia Stanton Jr."], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Tuesday"], ["availableat", "8:00 AM"], ["availableuntil", "10:00 AM"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Natalia Stanton Jr."], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Wednesday"], ["availableat", "11:00 AM"], ["availableuntil", "6:00 PM"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.3ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Natalia Stanton Jr."], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Saturday"], ["availableat", "9:00 AM"], ["availableuntil", "3:00 PM"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.6ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Natalia Stanton Jr."], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Sunday"], ["availableat", "8:00 AM"], ["availableuntil", "3:00 PM"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.5ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Nola Murazik V"], ["timezone", "(GMT-09:00) America/Yakutat)"], ["weekday", "Monday"], ["availableat", "8:00 AM"], ["availableuntil", "10:00 AM"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Nola Murazik V"], ["timezone", "(GMT-09:00) America/Yakutat)"], ["weekday", "Tuesday"], ["availableat", "11:00 AM"], ["availableuntil", "1:00 PM"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Nola Murazik V"], ["timezone", "(GMT-09:00) America/Yakutat)"], ["weekday", "Wednesday"], ["availableat", "8:00 AM"], ["availableuntil", "10:00 AM"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Nola Murazik V"], ["timezone", "(GMT-09:00) America/Yakutat)"], ["weekday", "Saturday"], ["availableat", "8:00 AM"], ["availableuntil", "11:00 AM"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Nola Murazik V"], ["timezone", "(GMT-09:00) America/Yakutat)"], ["weekday", "Sunday"], ["availableat", "7:00 AM"], ["availableuntil", "9:00 AM"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Elyssa OKon"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Monday"], ["availableat", "9:00 AM"], ["availableuntil", "3:00 PM"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Elyssa OKon"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Tuesday"], ["availableat", "6:00 AM"], ["availableuntil", "1:00 PM"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Elyssa OKon"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Wednesday"], ["availableat", "6:00 AM"], ["availableuntil", "11:00 AM"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.5ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Elyssa OKon"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Friday"], ["availableat", "8:00 AM"], ["availableuntil", "12:00 PM"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Elyssa OKon"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Saturday"], ["availableat", "9:00 AM"], ["availableuntil", "4:00 PM"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Elyssa OKon"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Sunday"], ["availableat", "8:00 AM"], ["availableuntil", "10:00 AM"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.4ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Dr. Geovany Keebler"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Thursday"], ["availableat", "7:00 AM"], ["availableuntil", "2:00 PM"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCoach Create (0.3ms)[0m  [1m[32mINSERT INTO "coaches" ("name", "timezone", "weekday", "availableat", "availableuntil") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Dr. Geovany Keebler"], ["timezone", "(GMT-06:00) Central Time (US & Canada)"], ["weekday", "Thursday"], ["availableat", "3:00 PM"], ["availableuntil", "5:00 PM"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/trainer1" for ::1 at 2021-09-01 11:34:26 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Trainer1Controller#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer1/index.erb within layouts/application
+  [1m[36mCoach Load (0.3ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches" LIMIT ?[0m  [["LIMIT", 4]]
+  ↳ app/views/trainer1/index.erb:7
+  Rendered trainer1/index.erb within layouts/application (Duration: 106.0ms | Allocations: 26728)
+  Rendered layout layouts/application.html.erb (Duration: 127.2ms | Allocations: 31557)
+Completed 200 OK in 154ms (Views: 138.0ms | ActiveRecord: 1.1ms | Allocations: 34834)
+
+
+Started GET "/trainer2" for ::1 at 2021-09-01 11:34:30 -0400
+Processing by Trainer2Controller#natalia as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer2/natalia.erb within layouts/application
+  [1m[36mCoach Load (0.3ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches" WHERE "coaches"."id" IN (?, ?, ?, ?)[0m  [["id", 5], ["id", 6], ["id", 7], ["id", 8]]
+  ↳ app/views/trainer2/natalia.erb:7
+  Rendered trainer2/natalia.erb within layouts/application (Duration: 7.9ms | Allocations: 1652)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 5710)
+Completed 200 OK in 33ms (Views: 29.1ms | ActiveRecord: 0.3ms | Allocations: 6633)
+
+
+Started GET "/trainer3" for ::1 at 2021-09-01 11:34:33 -0400
+Processing by Trainer3Controller#nola as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering trainer3/nola.erb within layouts/application
+  [1m[36mCoach Load (0.4ms)[0m  [1m[34mSELECT "coaches".* FROM "coaches" WHERE "coaches"."id" IN (?, ?, ?, ?, ?)[0m  [["id", 9], ["id", 10], ["id", 11], ["id", 12], ["id", 13]]
+  ↳ app/views/trainer3/nola.erb:7
+  Rendered trainer3/nola.erb within layouts/application (Duration: 7.1ms | Allocations: 1652)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 5710)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.4ms | Allocations: 6635)
+
+
