@@ -3,9 +3,9 @@
     <a href="/" class="logo"><img src="<%= asset_path('logo.png') %>"></a>
     <h1>Christy Schumm</h1>
       <p>Nomad Trainer</p>
-       <a type="button" class="btn btn-lg btn-primary" href="https://github.com/osxgirl"><span class="glyphicon glyphicon-calendar"></span> Schedule</a>
-            <% @coaches.each do |coach| %>
-          <td><h2><%= coach.weekday %></h2><h2><%= coach.availableat %></h2></td>
+       <a type="button" class="btn btn-lg btn-primary" href=""><span class="glyphicon glyphicon-calendar"></span> Schedule</a>
+            <% @coaches.limit(4).each do |coach| %>
+          <td><h2><%= coach.weekday %></h2><h2><%= coach.availableat %> — <%= coach.availableuntil %></h2></td>
         </tr>
       <% end %>
   </div>
