@@ -4,9 +4,9 @@ Rails.application.routes.draw do
     resources :trainer1
     get 'trainer1', to: 'trainer1#christy', as: 'christy'
     get 'trainer2', to: 'trainer2#natalia', as: 'natalia'
-    get 'trainer3', to: 'trainer3#natalia', as: 'nola'
-    get 'trainer4', to: 'trainer4#natalia', as: 'elyssa'
-    get 'trainer5', to: 'trainer5#natalia', as: 'geovany'
+    get 'trainer3', to: 'trainer3#nola', as: 'nola'
+    get 'trainer4', to: 'trainer4#elyssa', as: 'elyssa'
+    get 'trainer5', to: 'trainer5#geovany', as: 'geovany'
     namespace :api do
       namespace :v1 do
         resources :coaches, only: [:index, :create, :destroy, :update]
