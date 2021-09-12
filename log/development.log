@@ -6630,3 +6630,14 @@ Processing by Trainer1Controller#index as HTML
 Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.2ms | Allocations: 5758)
 
 
+Started GET "/" for ::1 at 2021-09-11 21:42:53 -0400
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (Duration: 403.7ms | Allocations: 45514)
+  Rendered layout layouts/application.html.erb (Duration: 469.6ms | Allocations: 65499)
+Completed 200 OK in 494ms (Views: 477.9ms | ActiveRecord: 0.0ms | Allocations: 70211)
+
+
